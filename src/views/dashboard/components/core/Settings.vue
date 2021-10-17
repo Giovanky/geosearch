@@ -32,28 +32,7 @@
         width="300"
       >
         <v-card-text>
-          <strong class="mb-3 d-inline-block">SIDEBAR FILTERS</strong>
-
-          <v-item-group v-model="color">
-            <v-item
-              v-for="color in colors"
-              :key="color"
-              :value="color"
-            >
-              <template v-slot="{ active, toggle }">
-                <v-avatar
-                  :class="active && 'v-settings__item--active'"
-                  :color="color"
-                  class="v-settings__item"
-                  size="25"
-                  @click="toggle"
-                />
-              </template>
-            </v-item>
-          </v-item-group>
-
-          <v-divider class="my-4 secondary" />
-
+          
           <v-row
             align="center"
             no-gutters
@@ -74,9 +53,9 @@
             </v-col>
           </v-row>
 
-          <v-divider class="my-4 secondary" />
+          <!-- <v-divider class="my-4 secondary" /> -->
 
-          <v-row
+          <!-- <v-row
             align="center"
             no-gutters
           >
@@ -98,9 +77,9 @@
 
           <v-divider class="my-4 secondary" />
 
-          <strong class="mb-3 d-inline-block">IMAGES</strong>
+          <strong class="mb-3 d-inline-block">IMAGES</strong> -->
 
-          <v-item-group
+          <!-- <v-item-group
             v-model="image"
             class="d-flex justify-space-between mb-3"
           >
@@ -149,9 +128,9 @@
             target="_blank"
           >
             Documentation
-          </v-btn>
+          </v-btn> -->
 
-          <div class="my-12" />
+          <!-- <div class="my-12" />
 
           <div>
             <strong class="mb-3 d-inline-block">THANK YOU FOR SHARING!</strong>
@@ -177,7 +156,7 @@
           >
             <v-icon>mdi-facebook</v-icon>
             - 50
-          </v-btn>
+          </v-btn> -->
         </v-card-text>
       </v-card>
     </v-menu>
